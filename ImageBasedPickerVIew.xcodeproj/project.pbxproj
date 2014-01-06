@@ -21,6 +21,12 @@
 		00EE956F187A73660077720C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EE9551187A73660077720C /* UIKit.framework */; };
 		00EE9577187A73660077720C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00EE9575187A73660077720C /* InfoPlist.strings */; };
 		00EE9579187A73660077720C /* ImageBasedPickerVIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EE9578187A73660077720C /* ImageBasedPickerVIewTests.m */; };
+		00EE9599187A75F00077720C /* snsd1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EE9593187A75F00077720C /* snsd1.png */; };
+		00EE959A187A75F00077720C /* snsd2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EE9594187A75F00077720C /* snsd2.png */; };
+		00EE959C187A75F00077720C /* snsd4.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EE9596187A75F00077720C /* snsd4.png */; };
+		00EE959D187A75F00077720C /* snsd5.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EE9597187A75F00077720C /* snsd5.png */; };
+		00EE95A1187A76660077720C /* snsd3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EE959F187A76660077720C /* snsd3.png */; };
+		00EE95A2187A76660077720C /* snsd6.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EE95A0187A76660077720C /* snsd6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		00EE9574187A73660077720C /* ImageBasedPickerVIewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageBasedPickerVIewTests-Info.plist"; sourceTree = "<group>"; };
 		00EE9576187A73660077720C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00EE9578187A73660077720C /* ImageBasedPickerVIewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBasedPickerVIewTests.m; sourceTree = "<group>"; };
+		00EE9593187A75F00077720C /* snsd1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snsd1.png; sourceTree = "<group>"; };
+		00EE9594187A75F00077720C /* snsd2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snsd2.png; sourceTree = "<group>"; };
+		00EE9596187A75F00077720C /* snsd4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snsd4.png; sourceTree = "<group>"; };
+		00EE9597187A75F00077720C /* snsd5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snsd5.png; sourceTree = "<group>"; };
+		00EE959F187A76660077720C /* snsd3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snsd3.png; sourceTree = "<group>"; };
+		00EE95A0187A76660077720C /* snsd6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snsd6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 		00EE9541187A73660077720C = {
 			isa = PBXGroup;
 			children = (
+				00EE9582187A75550077720C /* Res */,
 				00EE9553187A73660077720C /* ImageBasedPickerVIew */,
 				00EE9572187A73660077720C /* ImageBasedPickerVIewTests */,
 				00EE954C187A73660077720C /* Frameworks */,
@@ -150,6 +163,19 @@
 				00EE9575187A73660077720C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00EE9582187A75550077720C /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00EE959F187A76660077720C /* snsd3.png */,
+				00EE95A0187A76660077720C /* snsd6.png */,
+				00EE9593187A75F00077720C /* snsd1.png */,
+				00EE9594187A75F00077720C /* snsd2.png */,
+				00EE9596187A75F00077720C /* snsd4.png */,
+				00EE9597187A75F00077720C /* snsd5.png */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				00EE9566187A73660077720C /* Images.xcassets in Resources */,
+				00EE95A2187A76660077720C /* snsd6.png in Resources */,
+				00EE959D187A75F00077720C /* snsd5.png in Resources */,
+				00EE9599187A75F00077720C /* snsd1.png in Resources */,
 				00EE9558187A73660077720C /* InfoPlist.strings in Resources */,
 				00EE9561187A73660077720C /* Main.storyboard in Resources */,
+				00EE959C187A75F00077720C /* snsd4.png in Resources */,
+				00EE959A187A75F00077720C /* snsd2.png in Resources */,
+				00EE95A1187A76660077720C /* snsd3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
