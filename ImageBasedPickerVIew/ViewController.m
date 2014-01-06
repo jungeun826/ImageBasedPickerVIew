@@ -19,17 +19,21 @@
     int r = arc4random() % MAX_NUM;
     [self.picker selectRow:r inComponent:0 animated:YES];
 }
+//component 개수 설정
 -(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
     return 1;
 }
+//row 개수 설정
 -(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
     return MAX_NUM;
 }
+//row의 높이 설정
 -(CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component{
     return 64;
 }
+//imageView를 이용해 pickerView를 만들어준다.
 -(UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
-    NSString *imagePath = [NSString stringWithFormat:@"snsd%d.png",(int)row+1];
+    NSString *imagePath = [NSString stringWithFormat:@"image%d.png",(int)row];
     UIImage *image = [UIImage imageNamed:imagePath];
     UIImageView *imageView;
     
