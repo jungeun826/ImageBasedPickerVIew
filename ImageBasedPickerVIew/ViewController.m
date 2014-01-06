@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#define MAX_NUM 6
+#define MAX_NUM 9
 @interface ViewController () <UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
@@ -33,7 +33,7 @@
 }
 //imageView를 이용해 pickerView를 만들어준다.
 -(UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
-    NSString *imagePath = [NSString stringWithFormat:@"image%d.png",(int)row];
+    NSString *imagePath = [NSString stringWithFormat:@"snsd%d.png",(int)row];
     UIImage *image = [UIImage imageNamed:imagePath];
     UIImageView *imageView;
     
